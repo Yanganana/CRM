@@ -1,4 +1,4 @@
-# consultant_crm
+# CRM
 
 A new Flutter project.
 
