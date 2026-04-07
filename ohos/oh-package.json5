@@ -1,0 +1,10 @@
+{
+  "name": "consultant_crm",
+  "version": "1.0.0",
+  "description": "Enterprise Consultant CRM for HarmonyOS",
+  "main": "",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+  }
+}
