@@ -1,0 +1,66 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/marketing/overview",
+			"style": {
+				"navigationBarTitleText": "营销概览"
+			}
+		},
+		{
+			"path": "pages/marketing/plan",
+			"style": {
+				"navigationBarTitleText": "营销计划"
+			}
+		},
+		{
+			"path": "pages/customer/list",
+			"style": {
+				"navigationBarTitleText": "顾客列表"
+			}
+		},
+		{
+			"path": "pages/customer/detail",
+			"style": {
+				"navigationBarTitleText": "顾客详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "CRM",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/marketing/overview",
+				"text": "营销",
+				"iconPath": "static/tabbar/marketing.png",
+				"selectedIconPath": "static/tabbar/marketing-active.png"
+			},
+			{
+				"pagePath": "pages/customer/list",
+				"text": "顾客",
+				"iconPath": "static/tabbar/customer.png",
+				"selectedIconPath": "static/tabbar/customer-active.png"
+			}
+		]
+	}
+}
